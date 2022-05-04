@@ -6,6 +6,19 @@ This alwaysAI app performs object detection in real-time on Hailo accelerator/Co
 
 This app requires an alwaysAI account. Head to the [Sign up page](https://www.alwaysai.co/dashboard) if you don't have an account yet. Follow the instructions to install the alwaysAI tools on your development machine.
 
+Additionally, this app requires a linux machine (amd64) and a Hailo accelerator chip connected to the machine through PCIE interface. To install the Hailo PCIE drivers and Firmware , run the
+command below 
+
+```
+aai hailo install-pcie-driver
+```
+
+To uninstall the Hailo PCIE drivers and Firmware, run the command below
+
+```
+aai hailo uninstall-pcie-driver
+```
+
 Next, create an empty project to be used with this app. When you clone this repo, you can run `aai app configure` within the repo directory and your new project will appear in the list.
 
 ## Usage
