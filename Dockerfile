@@ -1,4 +1,4 @@
 ARG ALWAYSAI_HW="default"
-FROM alwaysai/edgeiq:hailo-amd2.1.0
+FROM alwaysai/edgeiq:hailo-amd2.1.1
 .1
 
